@@ -4,7 +4,6 @@ class HomeController {
   async index(req, res) {
     const novoAluno = await Aluno.create({
       nome: 'Murillo',
-      sobrenome : 'Oliveira',
       email: 'murillo@gmail.com',
       idade: 17,
       peso: 62,
